@@ -1,0 +1,15 @@
+{
+  "name": "systemjs-seed",
+  "version": "0.0.0",
+  "description": "SystemjsSeed",
+  "main": "src/index.jade",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "updateLibs": "./updateLibs.sh",
+    "clean": "rm -rf ./build ./dist ./dest ./.tmp",
+    "start": "harp server src",
+    "build": "harp compile src build"
+  },
+  "author": ":FooTearth <footearth@gmail.com>",
+  "license": "MIT"
+}
